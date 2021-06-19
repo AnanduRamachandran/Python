@@ -25,6 +25,10 @@ class Pet:
          print(f"i am {self.name} and I am {self.age} years old") 
 
 class Cat(Pet):
+     def __init__(self, name, age, color):
+          super().__init__(name, age)
+          self.color = color
+
      def speak(self):
           print("Meow")
 

@@ -21,4 +21,4 @@ print (list(my_list)) #my_list was a map
 my_list = [n for n in nums if n%2 == 0]
 print(my_list)
 
-#Same with 
+#Same with  i
